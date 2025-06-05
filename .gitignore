@@ -1,0 +1,23 @@
+# .gitignore
+
+# Ignorar archivos de entorno
+.env
+
+# Ignorar archivos de Python compilados
+__pycache__/
+*.py[cod]
+
+# Ignorar archivos de migraciones
+*/migrations/*.py
+*/migrations/*.pyc
+
+# Ignorar archivos de base de datos SQLite
+*.sqlite3
+
+# Ignorar carpetas de entorno virtual
+venv/
+env/
+
+# Ignorar archivos estáticos/media
+media/
+staticfiles/

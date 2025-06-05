@@ -1,0 +1,27 @@
+/* Estilo global para la página */
+body {
+  margin: 0;
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  background-color: #f4f4f4;
+}
+
+/* Aseguramos que los enlaces se vean correctamente */
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+/* Estilos para tablas */
+.table-dark th, .table-dark td {
+  background-color: #343a40;
+  color: white;
+}
+
+
+
